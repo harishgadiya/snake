@@ -38,34 +38,39 @@
       width: 100%;
       position: fixed;
       top: 0;
-      height: 30vh;
-      background-color: rgba(0, 0, 0, 0.02);
+      height: 50vh;
+      background-color: rgba(0, 0, 0, 0.01);
     }
     .right {
-      width: 30vw;
+      width: 50vw;
       position: fixed;
       right: 0;
       height: 100vh;
-      background-color: rgba(0, 0, 0, 0.02);
+      background-color: rgba(0, 0, 0, 0.01);
     }
     .bottom {
       width: 100%;
       position: fixed;
       bottom: 0;
-      height: 30vh;
-      background-color: rgba(0, 0, 0, 0.02);
+      height: 50vh;
+      background-color: rgba(0, 0, 0, 0.01);
     }
     .left {
-      width: 30vw;
+      width: 50vw;
       position: fixed;
       left: 0;
       height: 100vh;
-      background-color: rgba(0, 0, 0, 0.02);
+      background-color: rgba(0, 0, 0, 0.01);
     }
   </style>
   <script src="game.js" defer type="module"></script>
 </head>
 <body>
+  <audio id="myAudio">
+    <source src="audio.ogg" type="audio/ogg">
+    <source src="audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
   <div id="game-board"></div>
   <div class="top"></div>
   <div class="right"></div>

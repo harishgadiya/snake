@@ -27,7 +27,9 @@ export function draw(gameBoard) {
 }
 
 export function expandSnake(amount) {
-  newSegments += amount
+  newSegments += amount;
+  var audio = document.getElementById("myAudio");
+  audio.play();
 }
 
 export function onSnake(position, { ignoreHead = false } = {}) {
